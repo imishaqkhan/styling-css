@@ -1,0 +1,62 @@
+body{
+    padding: 0%;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+   
+    
+}
+h1{
+    background-color:tomato;
+    padding:  10px;
+    border: 5px rgb(228, 206, 206) groove;
+}
+p{
+    background-color: lightgray;
+    padding: 10px;
+    border: 5px outset green;
+}
+.main{
+    width: 100%;
+    height:100%;
+   display: flex;
+     background-image: url(background.jpg);
+     background-repeat: no-repeat;
+     background-attachment: fixed;  
+     background-size: cover; 
+}
+.first{
+    width: 50%;
+   border: 4px dashed rgb(103, 131, 131);
+}
+.second{
+border: 5px dotted aqua;
+width: 50%;
+padding: 10px;
+}
+.second :last-child{
+    border: 4px dotted  blue;
+}
+.container{
+    width: 100%;
+    
+}
+.container h1{
+    
+    margin: 100px 110px 50px 50px ;
+}
+.container p{
+    margin-top:70px;
+    margin-left: 50px;
+    margin-right: 290px;
+    margin-bottom:30px ;
+    border: 5px double yellow;
+    padding: 45px;
+    width: 300px;
+
+}
+.container .p p{
+    width: 380px;
+    outline: blue 5px solid;
+    
+}
