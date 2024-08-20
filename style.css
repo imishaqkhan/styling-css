@@ -39,7 +39,7 @@ padding: 10px;
 }
 .container{
     width: 100%;
-    
+   
 }
 .container h1{
     
@@ -58,5 +58,108 @@ padding: 10px;
 .container .p p{
     width: 380px;
     outline: blue 5px solid;
+    outline-offset: 10px;
+    text-align: justify;
+}
+section{
+    background-color: rgb(193, 193, 180);
+    padding: 10px;
+    margin: 5px;
+}
+section .content h1{
+    text-align: center;
+    text-transform: uppercase;
     
+}
+.content p{
+    color: blue;
+    text-indent: 39px;
+    text-transform: capitalize;
+    text-align: justify;
+    letter-spacing:1px;
+    line-height: 0.9cm;
+    text-shadow: 2px 1px 5px rgb(82, 12, 12);
+}
+section a:visited a:link{
+    color: white;
+    background-color: red;
+    display: inline-block;
+    padding: 14px 20px;
+    text-decoration: none;
+ 
+}
+/* cursor section*/
+.div-main{
+    padding: 10px;
+    width: 100%;
+    height: auto;
+
+}
+.div-main div{
+    padding-top: 10px;
+    padding-left:20px ;
+    margin: 2px;
+    background-color: bisque;
+    text-align: center;
+    
+}
+.div-main button{
+    text-align: justify;
+    width: 30%;
+
+    text-align: center;
+}
+/* list section */
+.list ul{
+    background-color: gray;
+    padding: 20px;
+}
+.list ol{
+    background-color: gray;
+    padding: 20px;
+}
+
+.list ul li{
+    background-color: rgb(207, 185, 185);
+    
+    
+}
+.list ol li{
+    background-color: rgb(205, 160, 160);
+   
+}
+.list ul.a {
+    list-style-type: circle;
+}
+.list ul.b {
+    list-style-type: square;
+}
+.list ol.c {
+    list-style-type: upper-roman;
+}
+.list ol.d {
+    list-style-type: lower-alpha;
+}
+/* table section */
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.table td,.table th{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.table th{
+    background-color: rgb(158, 52, 52);
+    color: white;
+    height: 40px;
+}
+.table tr:nth-child(even){
+background-color: rgb(233, 217, 233);
+}
+.table tr:hover{
+    background-color: black;
+    color: white;
 }
